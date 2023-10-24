@@ -1,0 +1,64 @@
+nav {
+  width: 100%;
+  background-color: black;
+  height: 80px; 
+  color: #fff;
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+  color: #fff;
+}
+
+.links {
+  display: flex;
+}
+
+.links a {
+  color: #fff;
+  padding: 0 1rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .links {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background: #333;
+    flex-direction: column;
+  }
+
+  .links a {
+    display: block;
+    padding: 1rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+}
+
+.a-logo {
+  color: #fff !important ;
+
+}

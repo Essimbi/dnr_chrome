@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "DNR",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "history"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "32": "icons/32.png",
+        "128": "icons/128.png"
+    }
+}
