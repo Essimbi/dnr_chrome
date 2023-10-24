@@ -2,6 +2,7 @@
     "manifest_version": 3,
     "name": "DNR",
     "version": "1.0",
+    "description": "DNR est une extension chrome dont le but est de permettre la suppression en clic de plusieurs occurances d'un nom de domaine dans son historique de navigation (annuel).",
     "permissions": [
         "activeTab",
         "history"
